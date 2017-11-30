@@ -8,7 +8,7 @@ import static javafx.scene.input.KeyCode.T;
 
 public class Histogram<T> {
     
-    private final Map<T, Integer> map = new HashMap<T, Integer>();
+    private final Map<T, Integer> map = new HashMap<>();
     
     public int get(T key) {
         return map.get(key);
